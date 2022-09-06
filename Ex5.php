@@ -1,0 +1,16 @@
+<?php
+/*
+Escreva um script que imprima qual o maior número.
+Use IF .. ELSE
+*/
+$a = 10;
+$b = 1;
+$c = 40;
+
+if ($a > $b & $a > $c) {
+    echo "O maior número é " . $a;
+} elseif ($b > $c & $b > $a) {
+    echo "O maior número é " . $b;
+} else {
+    echo "O maior número é " . $c;
+}
